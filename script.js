@@ -3,11 +3,11 @@ const student={
 	name:"john",
 }
 
-function getkeys(obj){
+function getKeys(obj){
 	return Object.keys(obj);
 }
 
-console.log(getkeys(student));
+console.log(getKeys(student));
 
 // const student2={
 // 	name:"abc",
