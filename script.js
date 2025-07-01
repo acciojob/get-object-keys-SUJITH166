@@ -3,11 +3,12 @@
 
 const student = {
     name: "john",
+    age: 30,
+    city: "New York"
 };
 
 function getKeys(obj) {
-    console.log("Object received:", obj);
     return Object.keys(obj);
 }
 
-console.log(student.getKeys()); // Should output: ["name"]
+console.log(getKeys(student)); // This will output: ["name", "age", "city"]
