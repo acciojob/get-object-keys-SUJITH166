@@ -9,8 +9,8 @@ function getkeys(obj){
 
 console.log(getkeys(student));
 
-const student2={
-	name:"abc",
-	city:"edf",
-}
-console.log(getkeys(student2));
+// const student2={
+// 	name:"abc",
+// 	city:"edf",
+// }
+// console.log(getkeys(student2));
