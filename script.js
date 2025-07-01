@@ -6,6 +6,7 @@ const student = {
 };
 
 function getKeys(obj) {
+    console.log("Object received:", obj);
     return Object.keys(obj);
 }
 
