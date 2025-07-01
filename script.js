@@ -10,4 +10,4 @@ function getKeys(obj) {
     return Object.keys(obj);
 }
 
-console.log(getKeys(student)); // Should output: ["name"]
+console.log(student.getKeys()); // Should output: ["name"]
