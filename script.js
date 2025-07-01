@@ -1,10 +1,16 @@
 //your JS code here. If required.
-const object={
-	name:"",
+const student={
+	name:"john",
 }
 
 function getkeys(obj){
-	return object.keys(obj);
+	return Object.keys(obj);
 }
 
-console.log(getkeys(object));
+console.log(getkeys(student));
+
+const student2={
+	name:"abc",
+	city:"edf",
+}
+console.log(getkeys(student2));
